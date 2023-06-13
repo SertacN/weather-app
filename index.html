@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hava Durumu</h1>
+      <form id="form">
+        <input
+          type="text"
+          id="countryInput"
+          class="countryInput"
+          placeholder="Şehir Giriniz"
+        />
+        <button id="weatherButton" class="weatherButton" name="weatherButton">
+          Hava Durumu
+        </button>
+      </form>
+      <div id="weatherContainer">
+        <div class="icon" id="icon"></div>
+        <div class="tempature" id="tempature"></div>
+        <div class="details" id="details"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
