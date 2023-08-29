@@ -1,5 +1,5 @@
 Weather App
-
+Live Server : https://sertacn.github.io/weather-app/
 API from "https://openweathermap.org/"
 
 - Get API from openweathermap and render htmltemplate.
